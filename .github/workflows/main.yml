@@ -17,4 +17,5 @@ jobs:
         dotnet-version: 7.0.x
     - name: Dotnet Outdated Extended
       uses: bumbummen99/dotnet-outdated-action@v4
-  
+      with:
+        location: SerializersBenchmark.sln
